@@ -1,0 +1,32 @@
+form {
+  background: white;
+  float: left;
+  width: 100%;
+  padding: 30px;
+  border-radius: 0 20px 20px 0;
+  color: #7b7b7b; 
+}
+
+p {
+  font-size: 1.1em;
+}
+
+button {
+	color: white;
+	font-size: 	1em;
+	background-color: #0000FF;
+	border-radius: 7px;
+	width: 100px;
+	height: 40px;
+}
+
+input[type="text"] {
+	border: solid 3px #C0C0C0;
+	margin-bottom: 3%;
+	background-color: white;
+	width: 400px;
+	height: 30px;
+}
+
+
+
