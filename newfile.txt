@@ -1,0 +1,9 @@
+1. git log --oneline -- Gemfile | wc -l
+Ответ = 11
+2. git log --diff-filter=A -- Gemfile
+Ответ = 10 октября 2012
+3. git blame -L 136,138 -- zabbixapi.rb
+Pavel Tsaregorodtsev 2013-12-04 12:36:55
+4. git log --grep="Add Ruby 2.2 support"
+3b128fa1c6b96c9be4aed5b2bcf777537d752c5e
+https://github.com/express42/zabbixapi/commit/3b128fa1c6b96c9be4aed5b2bcf777537d752c5e
